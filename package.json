@@ -3,23 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": ".stylelintrc.js",
-  "dependencies": {
-    "prettier-eslint": "^11.0.0",
-    "prettier-eslint-cli": "^5.0.0",
-    "stylelint-order": "^4.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "prettier": "^2.0.5",
-    "prettier-stylelint": "^0.4.2",
-    "stylelint": "^13.6.1",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-recess-order": "^2.1.0",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-prettier": "^1.1.2",
-    "stylelint-scss": "^3.18.0"
+    "stylelint": "^13.7.1",
+    "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
-    "lint:scss": "stylelint --fix ./src/**/*.scss"
+    "lint:scss": "npx stylelint ./src/**/*.scss"
   },
   "repository": {
     "type": "git",
