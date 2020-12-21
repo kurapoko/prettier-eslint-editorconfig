@@ -1,5 +1,7 @@
 .try {
+
   .spinner {
+    background-image: url("../hoge.jpg");
     height: 40px;
     margin: 100px auto 100px;
     top: 20px;
@@ -8,10 +10,29 @@
   }
 
   .item {
+    bottom: .5px;
+    font-size: 20px;
+    font-weight: bold;
     height: 40px;
     margin: 100px auto 100px;
     top: 20px;
     transform-origin: center center;
     width: 40px;
+
+    &::before {
+      content: "";
+    }
+  }
+
+  .item + .text {
+    margin: 0;
+  }
+
+  input::placeholder {
+    width: 10px;
+  }
+
+  p {
+    font-size: 10px;
   }
 }
