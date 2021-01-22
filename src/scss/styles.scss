@@ -1,21 +1,17 @@
 .try {
-
   .spinner {
     background-image: url("../hoge.jpg");
     height: 40px;
     margin: 100px auto 100px;
+    top: 20px;
     top: 20px;
     transform-origin: center center;
     width: 40px;
   }
 
   .item {
-    bottom: .5px;
-    font-size: 20px;
-    font-weight: bold;
-    height: 40px;
-    margin: 100px auto 100px;
-    top: 20px;
+    height: 4 0;
+    margin: 100px auto;
     transform-origin: center center;
     width: 40px;
 
@@ -24,7 +20,7 @@
     }
   }
 
-  .item + .text {
+  .item.text {
     margin: 0;
   }
 
@@ -34,5 +30,13 @@
 
   p {
     font-size: 10px;
+    font-weight: 300;
   }
+}
+
+.itrem {
+}
+
+.try {
+  font-size: large;
 }
